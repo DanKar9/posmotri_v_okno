@@ -143,6 +143,7 @@ ol {
 .search-form {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 
@@ -166,7 +167,7 @@ ol {
 }
 
 .search-form__fieldset {
-    width: 32%;
+     width: 32%;
     border: none;
 }
 
@@ -174,8 +175,6 @@ ol {
     cursor: pointer;
     position: relative;
 }
-
-
 
 .search-form__label:hover {
     text-decoration: underline;
@@ -186,23 +185,22 @@ ol {
     outline-offset: 1px;
 }
 
-
-
 .search-form__fieldset-title {
-
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     margin-bottom: 4px;
 }
 
-
-
+.search-form__fieldset-title-pd{
+    padding-left: 7px;
+}
 
 .search-form__checkbox-list {
     display: flex;
-    gap: 8px;
+    gap: 10px;
     justify-content: space-evenly;
+    
 }
 
 .search-form__label-text {
