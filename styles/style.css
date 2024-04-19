@@ -198,8 +198,7 @@ ol {
 
 .search-form__checkbox-list {
     display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
